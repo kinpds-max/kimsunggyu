@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김성규 — 관련 뉴스 게시판</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=SF+Pro+Display:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .board-container {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 0 24px;
+    }
+    .board-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+    }
+    .board-header {
+      border-bottom: 2px solid var(--text-primary);
+      text-align: left;
+    }
+    .board-header th {
+      padding: 20px 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-tertiary);
+    }
+    .board-row {
+      border-bottom: 1px solid var(--silver-line);
+      transition: background 0.3s;
+    }
+    .board-row:hover {
+      background: rgba(0,0,0,0.01);
+    }
+    .board-row td {
+      padding: 24px 10px;
+    }
+    .board-date {
+      font-family: var(--font-en);
+      font-size: 13px;
+      color: var(--text-tertiary);
+      width: 120px;
+    }
+    .board-subject a {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--text-primary);
+      display: block;
+    }
+    .board-subject p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-top: 6px;
+    }
+    .board-back {
+      margin-top: 60px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <div class="nav-inner">
+      <a href="index.html#news" class="nav-logo">KSK</a>
+      <ul class="nav-links">
+        <li><a href="index.html#news">홈으로</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="board-container">
+    <div class="section-label">Board</div>
+    <h1 class="section-title">관련 뉴스 전체보기</h1>
+    
+    <table class="board-table">
+      <thead class="board-header">
+        <tr>
+          <th style="width: 120px;">날짜</th>
+          <th>제목 및 내용</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="board-row">
+          <td class="board-date">2026.04.20</td>
+          <td class="board-subject">
+            <a href="https://www.joongang.co.kr/article/25421573" target="_blank">중앙대 예술대학원, 후반기 신입생 모집 - 김성규 동문 활약</a>
+            <p>중앙대 예술대학원이 신입생을 모집합니다. 개그맨 김성규 등 다수의 유명인들이 활약중입니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2026.03.15</td>
+          <td class="board-subject">
+            <a href="https://www.mk.co.kr/article/11495414" target="_blank">윤형빈·김학도·김성규, 개그맨에서 뮤지컬 배우로…‘프리마돈나’</a>
+            <p>KBS 개그맨 3인방이 뮤지컬 무대에 도전하여 새로운 인생 2막을 열었습니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2026.03.09</td>
+          <td class="board-subject">
+            <a href="https://www.meconomynews.com/news/articleView.html?idxno=127459" target="_blank">윤형빈·김학도·김성규 '프리마돈나' 성료... 제작자 김성규 역량 입증</a>
+            <p>대학로 후암씨어터에서 성황리에 공연을 마친 '프리마돈나' 소식입니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2026.02.24</td>
+          <td class="board-subject">
+            <a href="http://www.financialreview.co.kr/news/articleView.html?idxno=37744" target="_blank">쁠랑뜨, 쁠랑뜨스무디 공식 앰버서더 개그맨 김성규 선정</a>
+            <p>건강한 이미지의 개그맨 김성규가 쁠랑뜨 브랜드의 얼굴로 활동합니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2026.02.10</td>
+          <td class="board-subject">
+            <a href="https://sports.khan.co.kr/article/202602100829003?pt=nv" target="_blank">대학로 점령한 개그맨 3인방, 뮤지컬로 ‘대박’</a>
+            <p>개그맨 김성규가 직접 제작에 참여한 뮤지컬이 대학로에서 큰 화제를 모았습니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2025.12.28</td>
+          <td class="board-subject">
+            <a href="https://www.epnc.co.kr/news/articleView.html?idxno=321032" target="_blank">개그맨 김성규, '극단 노하우 뮤지컬캠프' 재능기부 참여</a>
+            <p>대한적십자사와 함께한 뮤지컬 캠프에서 즉흥 연기 수업을 진행했습니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2025.11.15</td>
+          <td class="board-subject">
+            <a href="http://www.seoulwire.com/news/articleView.html?idxno=661312" target="_blank">개그맨 김성규, '권봄의 재즈동화' 제작자 변신</a>
+            <p>코미디를 넘어 재즈 콘서트 제작까지 영역을 확장하고 있는 행보입니다.</p>
+          </td>
+        </tr>
+        <tr class="board-row">
+          <td class="board-date">2025.07.02</td>
+          <td class="board-subject">
+            <a href="http://www.gndomin.com/news/articleView.html?idxno=439936" target="_blank">함양문화예술회관, 김성규 뮤지컬 'DIVA' 공연</a>
+            <p>뮤지컬 배우로서 무대에 선 김성규의 명품 연기와 노래를 만나보세요.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="board-back">
+      <a href="index.html#news" class="btn-primary">홈으로 돌아가기</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">KSK</span>
+        <p class="footer-copy">© 2026 김성규. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
